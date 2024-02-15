@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список файлов рабочей директории</title>
+</head>
+<body>
+    <h1>Список файлов рабочей директории</h1>
+    {% for file in workdir %}
+        <h2>{{ file }}</h2>
+    {% endfor %}
+<a href="/"> Вернуться на главную</a>
+</body>
+</html>
